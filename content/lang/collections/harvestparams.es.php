@@ -4,9 +4,7 @@
 Language: Espa�ol (Spanish)
 ------------------
 */
-
 include_once('sharedterms.es.php');
-
 $LANG['PAGE_TITLE'] = 'Par&aacute;metros de B&uacute;squeda de Colecciones';
 $LANG['PAGE_HEADER'] = 'Formulario de B&uacute;squeda';
 $LANG['GENERAL_TEXT_1'] = 'Ingrese uno o m&aacute;s de los criterios de consulta siguientes y haga click en el bot&oacute;n &quot;Search&quot; para ver los resultados.';
@@ -18,7 +16,7 @@ $LANG['SELECT_1-1'] = 'Familia o Nombre Cientifico';
 $LANG['SELECT_1-2'] = 'Familia Solamente';
 $LANG['SELECT_1-3'] = 'Nombre Cientifico Solamente';
 $LANG['SELECT_1-4'] = 'Taxonomia Superior';
-$LANG['SELECT_1-5'] = 'Nombre Com&oacute;n';
+$LANG['SELECT_1-5'] = 'Nombre Común';
 $LANG['TITLE_TEXT_1'] = 'Separar m&uacute;ltiples con comas';
 $LANG['LOCALITY_HEADER'] = 'Datos de la Localidad:';
 $LANG['COUNTRY_INPUT'] = 'Pa&iacute;s:';
@@ -56,10 +54,9 @@ $LANG['SPECIMEN_HEADER'] = 'Cat&aacute;logo de la Colecci&oacute;n:';
 $LANG['CATALOG_NUMBER'] = 'N&uacute;mero de Cat&aacute;logo:';
 $LANG['INCLUDE_OTHER_CATNUM'] = 'Includa todos n&uacute;meros de cat&eacute;logo y GUIDs';
 $LANG['OTHER_CATNUM'] = 'Otro N&uacute;mero de Cat&aacute;logo:';
-$LANG['TYPE'] = 'Limitar a Ejemplares Tipo';
-$LANG['HAS_IMAGE'] = 'Limitar a Ejemplares con Im&aacute;genes';
-$LANG['HAS_GENETIC'] = 'Limitar a Ejemplares con datos gen&eacute;ticos';
-
+$LANG['TYPE'] = 'Limitar Solamente a Ejemplares Tipo';
+$LANG['HAS_IMAGE'] = 'Limitar Solamente a Ejemplares con Im&aacute;genes';
+$LANG['HAS_GENETIC'] = 'Limitar Solamente a Ejemplares con datos gen&eacute;ticos';
 //Following used in mapboundingbox.php
 $LANG['MBB_TITLE'] = 'Mapeador de Coordenadas';
 $LANG['MBB_INSTRUCTIONS'] = 'Click para comenzar a dibujar y otra vez para terminar el rect&aacute;ngulo. Click sobre el bot&oacute;n Enviar para transferir Coordenadas.';
@@ -67,7 +64,6 @@ $LANG['MBB_NORTHERN'] = 'Latitud Norte';
 $LANG['MBB_EASTERN'] = 'Longitud Este';
 $LANG['MBB_SOUTHERN'] = 'Latitud Sur';
 $LANG['MBB_WESTERN'] = 'Longitud Oeste';
-
 //Following used in mappointradius.php
 $LANG['MPR_TITLE'] = 'Mapeador de Coordenadas';
 $LANG['MPR_INSTRUCTIONS'] = 'Click para capturar coordenadas. Click en el bot&oacute;n Enviar Coordenadas para transferir Coordenadas.';

@@ -1,7 +1,7 @@
 <?php
 /*
 ------------------
-Language: Español
+Language: Espaï¿½ol
 ------------------
 */
 
@@ -19,6 +19,6 @@ $LANG['DISPLAY'] = 'Mostrar como';
 $LANG['SCINAME'] = 'Nombre Cient&iacute;fico';
 $LANG['COMMON'] = 'Nombre Com&uacute;n';
 $LANG['NOMATCH'] = 'No hay especies que correspondan a sus criterios. Por favor, anular la selecci&oacute;n de algunos caracteres para hacer la b&uacute;squeda menos restrictiva.';
-$LANG['SPECCOUNT'] = 'Cuenta de especies';
+$LANG['SPECCOUNT'] = 'NÃºmero de especies';
 $LANG['EDITMORP'] = 'Editar la morfolog&iacute;a';
 ?>

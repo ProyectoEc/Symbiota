@@ -4,9 +4,7 @@
 Language: English
 ------------------
 */
-
 include_once('sharedterms.en.php');
-
 $LANG['PAGE_TITLE'] = 'Collection Search Parameters';
 $LANG['PAGE_HEADER'] = 'Enter Search Parameters';
 $LANG['GENERAL_TEXT_1'] = 'Fill in one or more of the following query criteria and click &quot;Search&quot; to view your results.';
@@ -56,10 +54,9 @@ $LANG['SPECIMEN_HEADER'] = 'Specimen Criteria:';
 $LANG['CATALOG_NUMBER'] = 'Catalog Number:';
 $LANG['INCLUDE_OTHER_CATNUM'] = 'Include other catalog numbers and GUIDs';
 $LANG['OTHER_CATNUM'] = 'Other Catalog Number:';
-$LANG['TYPE'] = 'Limit to Type Specimens';
-$LANG['HAS_IMAGE'] = 'Limit to Specimens with Images';
-$LANG['HAS_GENETIC'] = 'Limit to Specimens with Genetic Data';
-
+$LANG['TYPE'] = 'Limit to Type Specimens Only';
+$LANG['HAS_IMAGE'] = 'Limit to Specimens with Images Only';
+$LANG['HAS_GENETIC'] = 'Limit to Specimens with Genetic Data Only';
 //Following used in mapboundingbox.php
 $LANG['MBB_TITLE'] = 'Coordinate Mapper';
 $LANG['MBB_INSTRUCTIONS'] = 'Click once to start drawing and again to finish rectangle. Click on the Submit button to transfer Coordinates.';
@@ -67,12 +64,10 @@ $LANG['MBB_NORTHERN'] = 'Northern Lat';
 $LANG['MBB_EASTERN'] = 'Eastern Long';
 $LANG['MBB_SOUTHERN'] = 'Southern Lat';
 $LANG['MBB_WESTERN'] = 'Western Long';
-
 //Following used in mappointradius.php
 $LANG['MPR_TITLE'] = 'Coordinate Mapper';
 $LANG['MPR_INSTRUCTIONS'] = 'Click once to capture coordinates. Click on the Submit Coordinate button to transfer Coordinates.';
 $LANG['MPR_LAT'] = 'Latitude';
 $LANG['MPR_LNG'] = 'Longitude';
 $LANG['SUBMIT'] = 'Submit';
-
 ?>
