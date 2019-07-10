@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once('../config/symbini.php');
 include_once($SERVER_ROOT.'/classes/ImageLibraryManager.php');
 header("Content-Type: text/html; charset=".$CHARSET);
@@ -13,6 +13,7 @@ $imgLibManager = new ImageLibraryManager();
 <title><?php echo $DEFAULT_TITLE; ?> Image Library</title>
 	<link href="../css/base.css?ver=<?php echo $CSS_VERSION; ?>" type="text/css" rel="stylesheet" />
 	<link href="../css/main.css<?php echo (isset($CSS_VERSION_LOCAL)?'?ver='.$CSS_VERSION_LOCAL:''); ?>" type="text/css" rel="stylesheet" />
+	<link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($SERVER_ROOT.'/config/googleanalytics.php'); ?>
@@ -28,12 +29,12 @@ $imgLibManager = new ImageLibraryManager();
 		echo " <b>Image Library</b>";
 		echo "</div>";
 	}
-	?> 
+	?>
 	<!-- This is inner text! -->
 	<div id="innertext">
 		<h1>Species with Images</h1>
-		<div style="margin:0px 0px 5px 20px;">This page provides a complete list to taxa that have images. 
-		Use the controls below to browse and search for images by family, genus, or species. 
+		<div style="margin:0px 0px 5px 20px;">This page provides a complete list to taxa that have images.
+		Use the controls below to browse and search for images by family, genus, or species.
 		</div>
 		<div style="float:left;margin:10px 0px 10px 30px;">
 			<div style=''>
@@ -110,7 +111,7 @@ $imgLibManager = new ImageLibraryManager();
 			}
 	?>
 	</div>
-	<?php 
+	<?php
 	include($SERVER_ROOT.'/footer.php');
 	?>
 </body>
